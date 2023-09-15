@@ -741,7 +741,7 @@ a {
   top: 0;
 }
 .cid-tPP5KClv5e .card-wrapper {
-  background: #9fe870;
+  background: #ffeb69;
 }
 @media (max-width: 767px) {
   .cid-tPP5KClv5e .card-wrapper {
@@ -766,5 +766,80 @@ a {
 .cid-tPP5KClv5e .card-title,
 .cid-tPP5KClv5e .card-box {
   text-align: center;
-  color: #2e481a;
+  color: #164fd3;
+}
+.cid-tPV1CNhr2g {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #2e481a;
+}
+.cid-tPV1CNhr2g .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tPV1CNhr2g .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tPV1CNhr2g .nav-tabs .nav-item.open .nav-link:focus,
+.cid-tPV1CNhr2g .nav-tabs .nav-link.active:focus {
+  outline: none;
+}
+.cid-tPV1CNhr2g .nav-tabs {
+  flex-wrap: wrap;
+  border-bottom: none;
+}
+@media (max-width: 767px) {
+  .cid-tPV1CNhr2g .nav-item {
+    width: 100%;
+    margin-right: 0 !important;
+    text-align: center;
+  }
+}
+.cid-tPV1CNhr2g .nav-tabs .nav-item {
+  margin-right: 1.5rem;
+}
+.cid-tPV1CNhr2g .nav-tabs .nav-link {
+  transition: padding 0.3s ease, background-color 0.3s ease;
+  border: none;
+  border-radius: 2rem !important;
+  padding: 1.25rem 0!important;
+  background-color: transparent!important;
+  overflow: hidden!important;
+}
+.cid-tPV1CNhr2g .nav-tabs .nav-link:not(.active) {
+  color: #9fe870;
+}
+.cid-tPV1CNhr2g .nav-tabs .nav-link.active {
+  color: #2e481a !important;
+  background-color: #9fe870 !important;
+  padding: 1.25rem 2rem!important;
+}
+.cid-tPV1CNhr2g .mbr-section-title {
+  text-align: center;
+  color: #ffffff;
+}
+.cid-tPV1CNhr2g .mbr-section-subtitle {
+  text-align: center;
+  color: #ffffff;
+}
+.cid-tPV1CNhr2g .mbr-text {
+  color: #fff;
+  margin: 0;
+}
+.cid-tPV1CNhr2g .content-head {
+  max-width: 800px;
+}
+.cid-tPV1CNhr2g .item-wrapper {
+  background-color: #2e481a;
+  padding: 2.25rem;
+}
+@media (max-width: 767px) {
+  .cid-tPV1CNhr2g .item-wrapper {
+    padding: 2rem 1.5rem;
+  }
 }
