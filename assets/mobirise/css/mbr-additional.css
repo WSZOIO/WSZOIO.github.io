@@ -810,6 +810,10 @@ a {
 }
 .cid-tPV64EfW9B .card-title,
 .cid-tPV64EfW9B .card-box {
-  text-align: center;
+  text-align: left;
   color: #2e481a;
+}
+.cid-tPV64EfW9B .card-title,
+.cid-tPV64EfW9B .card-box P {
+  text-align: center;
 }
