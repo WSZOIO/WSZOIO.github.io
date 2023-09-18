@@ -272,6 +272,9 @@
             },
             ".content-head": {
               "max-width": "800px"
+            },
+            ".card-title, .iconfont-wrapper P": {
+              "text-align": "center"
             }
           },
           "_name": "features05",

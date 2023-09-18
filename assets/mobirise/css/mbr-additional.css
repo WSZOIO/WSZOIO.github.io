@@ -884,3 +884,7 @@ a {
 .cid-tQcDFULpTL .content-head {
   max-width: 800px;
 }
+.cid-tQcDFULpTL .card-title,
+.cid-tQcDFULpTL .iconfont-wrapper P {
+  text-align: center;
+}
