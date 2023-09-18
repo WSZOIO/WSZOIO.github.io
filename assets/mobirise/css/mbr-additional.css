@@ -817,15 +817,15 @@ a {
 .cid-tPV64EfW9B .card-box P {
   text-align: center;
 }
-.cid-tQcBTaO3UE {
+.cid-tQcDFULpTL {
   padding-top: 6rem;
   padding-bottom: 6rem;
   background-color: #2e481a;
 }
-.cid-tQcBTaO3UE .mbr-fallback-image.disabled {
+.cid-tQcDFULpTL .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-tQcBTaO3UE .mbr-fallback-image {
+.cid-tQcDFULpTL .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -834,35 +834,53 @@ a {
   position: absolute;
   top: 0;
 }
-.cid-tQcBTaO3UE .card-wrapper {
-  background: #9fe870;
+.cid-tQcDFULpTL .item-mb {
+  margin-bottom: 2rem;
 }
 @media (max-width: 767px) {
-  .cid-tQcBTaO3UE .card-wrapper {
-    padding: 1rem;
+  .cid-tQcDFULpTL .item-mb {
+    margin-bottom: 1rem;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
-  .cid-tQcBTaO3UE .card-wrapper {
-    padding: 2rem;
+.cid-tQcDFULpTL .item-wrapper {
+  background: #ffffff;
+  padding: 2.25rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 767px) {
+  .cid-tQcDFULpTL .item-wrapper {
+    padding: 2rem 1.5rem;
+    margin-bottom: 1rem;
   }
 }
-@media (min-width: 992px) {
-  .cid-tQcBTaO3UE .card-wrapper {
-    padding: 9rem 4rem;
-  }
-}
-.cid-tQcBTaO3UE .mbr-text,
-.cid-tQcBTaO3UE .mbr-section-btn {
-  color: #000000;
-  text-align: center;
-}
-.cid-tQcBTaO3UE .card-title,
-.cid-tQcBTaO3UE .card-box {
-  text-align: center;
+.cid-tQcDFULpTL .mbr-iconfont {
+  display: inline-flex;
+  font-size: 3rem;
   color: #2e481a;
+  margin-bottom: 1rem;
+  width: 80px;
+  justify-content: center;
+  align-items: center;
+  background: #9fe870;
+  height: 80px;
+  border-radius: 50%;
 }
-.cid-tQcBTaO3UE .card-title,
-.cid-tQcBTaO3UE .card-box P {
-  text-align: center;
+.cid-tQcDFULpTL .mbr-section-title {
+  color: #9fe870;
+}
+.cid-tQcDFULpTL .mbr-section-subtitle {
+  color: #ffffff;
+}
+.cid-tQcDFULpTL .card-box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.cid-tQcDFULpTL .card-box .item-footer {
+  margin-top: auto;
+}
+.cid-tQcDFULpTL .content-head {
+  max-width: 800px;
 }
